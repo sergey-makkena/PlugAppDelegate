@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+
+platform :ios, '8.0'
+workspace 'ArticleSample'
+
+def all_pods
+
+    pod 'PlugAppDelegate'
+
+end
+
+
+target :'ArticleSample' do
+    all_pods
+end
