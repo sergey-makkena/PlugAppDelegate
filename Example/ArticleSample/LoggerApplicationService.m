@@ -2,7 +2,7 @@
 //  LoggerApplicationService.m
 //  ArticleSample
 //
-//  Created by Sergey Mustafaev on 12.03.17.
+//  Created by Sergey Makkena on 12.03.17.
 //  Copyright © 2017 Bongo Mongo. All rights reserved.
 //
 

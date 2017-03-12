@@ -147,8 +147,7 @@
 				TargetAttributes = {
 					A537B6FB1E75575900437726 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = E422CGKR2H;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -361,11 +360,11 @@
 			baseConfigurationReference = 287ACC79CBBD3ADA38686CF2 /* Pods-ArticleSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E422CGKR2H;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ArticleSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.srg.insta.ArticleSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smpl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -375,11 +374,11 @@
 			baseConfigurationReference = B6303A4B4971DD6B9675C295 /* Pods-ArticleSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E422CGKR2H;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ArticleSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.srg.insta.ArticleSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smpl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

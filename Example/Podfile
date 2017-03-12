@@ -4,13 +4,6 @@
 platform :ios, '8.0'
 workspace 'ArticleSample'
 
-def all_pods
-
-    pod 'PlugAppDelegate'
-
-end
-
-
 target :'ArticleSample' do
-    all_pods
+    pod 'PlugAppDelegate'
 end
