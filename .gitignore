@@ -58,3 +58,10 @@ fastlane/screenshots
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+Pods/
+Podfile.lock
+*.xcworkspace/
+
+# OSX
+.DS_Store
