@@ -13,6 +13,6 @@ s.author           = { 'Sergey' => 'Makkena' }
 s.source           = { :git => 'https://github.com/sergey-makkena/PlugAppDelegate.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '8.0'
-s.source_files = 'PlugAppDelegate/*'
+s.source_files = 'PlugAppDelegate/*.{h,m}'
 
 end
