@@ -16,9 +16,13 @@
 
 @implementation AppDelegate
 
+
 - (NSArray<ApplicationService> *)services {
-    return (NSArray<ApplicationService>*)@[[LoggerApplicationService new],
-                                           [PushApplicationService new]];
+    if (![super services]) {
+        super.services = (NSArray<ApplicationService>*)@[[LoggerApplicationService new],
+                                                         [PushApplicationService new]];
+    }
+    return super.services;
 }
 
 

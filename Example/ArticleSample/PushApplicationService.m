@@ -10,6 +10,19 @@
 
 @implementation PushApplicationService
 
+- (void)dealloc {
+    NSLog(@"LoggerApplicationService dealloc");
+}
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        NSLog(@"LoggerApplicationService init");
+    }
+    return self;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"PushApplicationService didFinishLaunchingWithOptions!");
     return YES;
