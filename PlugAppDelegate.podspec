@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'PlugAppDelegate'
-s.version          = '1.0.3'
+s.version          = '1.0.4'
 s.summary          = 'Make your AppDelegeate lite, without many lines of code.'
 
 s.description      = <<-DESC

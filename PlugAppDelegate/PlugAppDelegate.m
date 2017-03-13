@@ -10,13 +10,10 @@
 
 @interface PlugAppDelegate ()
 @property (nonatomic, strong) id <ApplicationService> service;
+
 @end
 
 @implementation PlugAppDelegate
-
-- (NSArray<ApplicationService> *)services {
-    return _services;
-}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions NS_AVAILABLE_IOS(3_0) {
     for (id<ApplicationService> srv in self.services) {
@@ -330,7 +327,7 @@
             [srv application:application willEncodeRestorableStateWithCoder:coder];
         }
     }
-    
+
 }
 
 - (void)application:(UIApplication *)application didDecodeRestorableStateWithCoder:(NSCoder *)coder NS_AVAILABLE_IOS(6_0) {
