@@ -75,6 +75,7 @@ pod "PlugAppDelegate"
 
 ## Authors 
 Obj-C version: Sergey Makkena sergey.magnetto@gmail.com
+
 Swift version: fmo91, ortizfernandomartin@gmail.com [PluggableApplicationDelegate](https://github.com/fmo91/PluggableApplicationDelegate)
 
 ## License
